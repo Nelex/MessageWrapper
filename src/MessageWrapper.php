@@ -23,4 +23,5 @@ class MessageWrapper
     {
         return $wrap_before.$phrase.$wrap_after;
     }
+
 }
