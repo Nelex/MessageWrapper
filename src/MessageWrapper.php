@@ -1,8 +1,8 @@
 <?php
 
-namespace League\Skeleton;
+namespace Nelex\MessageWrapper;
 
-class SkeletonClass
+class MessageWrapper
 {
 
     /**
@@ -19,8 +19,8 @@ class SkeletonClass
      *
      * @return string Returns the phrase passed in
      */
-    public function echoPhrase($phrase)
+    public function echoPhrase($phrase,$wrap_before,$wrap_after)
     {
-        return $phrase;
+        return $wrap_before.$phrase.$wrap_after;
     }
 }
