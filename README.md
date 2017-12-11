@@ -13,8 +13,7 @@ $ composer require nelex/messageWrapper
 ## Usage
 
 ``` php
-$wrapper = new Nelex\MessageWrapper();
-echo $wrapper->echoPhrase('Steve','Hi, ','!');
+echo Nelex\MessageWrapper::echoPhrase('Steve','Hi, ','!');
 ```
 
 ## Testing

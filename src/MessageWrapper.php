@@ -19,7 +19,7 @@ class MessageWrapper
      *
      * @return string Returns the phrase passed in
      */
-    public function echoPhrase($phrase,$wrap_before,$wrap_after)
+    public static function echoPhrase($phrase,$wrap_before,$wrap_after)
     {
         return $wrap_before.$phrase.$wrap_after;
     }
