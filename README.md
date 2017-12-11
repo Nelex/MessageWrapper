@@ -29,7 +29,7 @@ Please see [CONTRIBUTING](https://github.com/Nelex/MessageWrapper/blob/master/CO
 
 ## Credits
 
-- [:author_name](https://github.com/Nelex)
+- [Nelex](https://github.com/Nelex)
 - [All Contributors](https://github.com/Nelex/MessageWrappers/contributors)
 
 ## License
